@@ -1,3 +1,3 @@
 # Test-LimestoneDigital
 
-[Test-Kitsoft](https://dimassavchenko.github.io/Test-LimestoneDigital/rel/index.html)
+[DEMO](https://dimassavchenko.github.io/Test-LimestoneDigital/rel/index.html)
