@@ -1,0 +1,82 @@
+.formulas {
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+  &__block {
+    display: flex;
+  }
+  &__item {
+    width: 50%;
+  }
+  &__pic {
+    transition: transform .2s ease;
+    &:hover {
+      transform: scale(0.9, 0.9);
+      z-index: 2;
+    }
+  }
+  &__desc {
+    background-image: url("../img/formulas/formulas-bg.png");
+    background-size: 325px 325px;
+    background-repeat: no-repeat;
+    background-position-x: 420px;
+    padding-left: 80px;
+    &--second {
+      text-align: center;
+    }
+    &--third {
+      background-image: none;
+    }
+  }
+  &__title {
+    text-align: left;
+    padding-top: 0;
+    &--second {
+      padding-bottom: 0;
+    }
+    &--third {
+      padding-top: 25px;
+      padding-bottom: 20px;
+    }
+  }
+  &__list {
+    font-family: $second_font;
+    font-size: 14px;
+    width: 400px;
+  }
+  &__text {
+    padding-bottom: 20px;
+    padding-left: 30px;
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: 0;
+      width: 20px;
+      height: 15px;
+      background-image: url("../img/formulas/galka.png");
+      background-repeat: no-repeat;
+      background-size: 20px 15px;
+    }
+    &--third {
+      line-height: 1;
+      padding-bottom: 10px;
+      &:before {
+        content: 'NO';
+        font-weight: 600;
+        background-image: none;
+        top: 0;
+      }
+    }
+  }
+  &__sub {
+    font-family: $second_font;
+    font-size: 14px;
+    padding: 20px 0 24px;
+    width: 400px;
+    margin: 0 auto;
+    line-height: 2;
+  }
+}

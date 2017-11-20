@@ -1,0 +1,16 @@
+.gallery {
+  &__container {
+    display: flex;
+  }
+  &__icon {
+    width: 35px;
+    height: 35px;
+  }
+  &__img {
+    transition: transform .2s ease;
+    &:hover {
+      transform: scale(1.05, 1.05);
+      z-index: 2;
+    }
+  }
+}

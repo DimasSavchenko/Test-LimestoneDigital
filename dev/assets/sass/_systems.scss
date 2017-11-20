@@ -1,0 +1,29 @@
+.systems {
+  margin-bottom: 60px;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    width: 47%;
+    text-align: center;
+  }
+  &__pic {
+    margin-bottom: 15px;
+    transition: transform .2s ease;
+    &:hover {
+      transform: skew(10deg);
+      z-index: 2;
+    }
+  }
+  &__desc {
+    margin-bottom: 20px;
+  }
+  &__title {
+    font-size: 18px;
+  }
+  &__sub {
+    font-family: $second_font;
+    font-size: 14px;
+  }
+}

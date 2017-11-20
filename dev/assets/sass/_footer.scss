@@ -1,0 +1,88 @@
+.footer {
+  &__container {
+    
+  }
+  &__main {
+    background-image: url("../img/footer/footer-bg.png");
+    &-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 0 20px;
+    }
+  }
+  &__pic {
+     width: 170px;
+     height: 100px;
+  }
+  &__title {
+    display: inline-block;
+    color: $color_white;
+    font-size: 16px;
+    padding-bottom: 20px;
+    transition: color .3s linear;
+    &:hover {
+      color: $color_violet;
+    }
+  }
+  &__desc {
+    font-family: $third_font;
+    font-size: 12px;
+  }
+  &__text {
+    display: block;
+    color: $color_white;
+    padding-bottom: 12px;
+    transition: color .3s linear;
+    &:hover {
+      color: $color_violet;
+    }
+  }
+  &__bot {
+    background-color: $color_violet;
+    &-container {
+      padding: 20px 0;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  &__sign {
+    color: $color_white;
+    font-family: $third_font;
+    font-size: 12px;
+    transition: opacity .3s linear;
+    &:hover {
+      opacity: .7;
+    }
+  }
+}
+
+.footer__icon {
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+  padding: 5px;
+  border-radius: 100%;
+  text-align: center;
+  color: $color_black;
+  background-color: $color_white;
+  transition: background-color .3s ease;
+  &--tw {
+    &:hover {
+      background-color: #4099FF;
+      color: $color_white;
+    }
+  }
+  &--fb {
+    &:hover {
+      background-color: #3b5998;
+      color: $color_white;
+    }
+  }
+  &--insta {
+    &:hover {
+      background: linear-gradient(25deg, #fccc63, #fbad50, #e95950, #cd486b, #bc2a8d, #8a3ab9, #4c68d7);
+      color: $color_white;
+    }
+  }
+}

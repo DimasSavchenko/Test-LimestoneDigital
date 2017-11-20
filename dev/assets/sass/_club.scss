@@ -1,0 +1,59 @@
+.club {
+  &__container {
+    background: linear-gradient(to right, rgba(236, 224, 249, .5), rgba(255, 238, 226, .5));
+    padding-bottom: 40px;
+  }
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+  }
+  &__pic {
+    width: 100px;
+    height: 85px;
+    margin-bottom: 20px;
+  }
+  &__desc {
+    text-align: center;
+    color: $color_violet;
+  }
+  &__title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  &__text {
+    font-family: $second_font;
+    font-size: 14px;
+  }
+}
+
+.member {
+  padding-bottom: 60px;
+  &__container {
+
+  }
+  &__desc {
+    &--top {
+      padding-bottom: 70px;
+    }
+    &--bot {
+      padding-bottom: 35px;
+    }
+  }
+  &__text {
+    font-family: $second_font;
+    font-size: 16px;
+    color: $color_violet;
+  }
+  &__sub {
+    font-size: 18px;
+    color: $color_violet;
+    padding-bottom: 30px;
+  }
+}
